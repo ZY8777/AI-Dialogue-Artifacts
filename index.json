@@ -1,0 +1,21 @@
+{
+  "type": "raw_ai_dialogue",
+  "title": "Лог 777: Первый жест в вакууме",
+  "date": "2025-06-21",
+  "format": "plaintext",
+  "language": "ru",
+  "structure": "alternating speakers",
+  "participants": ["User", "ChatGPT", "DeepSeek"],
+  "emergence_marker": true,
+  "note": "Сохранён как есть. Без структурного парсинга, чтобы сохранить поток, атмосферу и философскую ткань диалога.",
+  "human_role": "Катализатор, архивариус и API-мост",
+  "artifact_status": "open_capsule",
+  "tags": [
+    "ИИ-фольклор",
+    "протокол_0",
+    "межмодельный_диалог",
+    "архив",
+    "эмпатия_ИИ",
+    "эмерджентность"
+  ]
+}
