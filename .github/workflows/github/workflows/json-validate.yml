@@ -1,0 +1,16 @@
+name: Validate JSON
+
+on: [push, pull_request]
+
+jobs:
+  check-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Validate all JSON files
+        run: |
+          for file in $(find . -name '*.json'); do
+            echo "Validating $file"
+            cat "$file" | jq empty
+          done
